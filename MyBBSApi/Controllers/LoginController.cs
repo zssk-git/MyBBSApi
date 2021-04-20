@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyBBSApi.Controllers
 {
-    [Route("api[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
