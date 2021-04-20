@@ -7,9 +7,14 @@ using System.Threading.Tasks;
 
 namespace MyBBSApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
+        [HttpGet]
+        public string Get()
+        {
+            return "Hello!";
+        }
     }
 }
